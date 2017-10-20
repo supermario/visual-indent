@@ -1,0 +1,19 @@
+{
+  "name": "visual-indent",
+  "main": "./lib/visual-indent",
+  "version": "0.0.1",
+  "description": "Visual indentation resizing that preserves existing indentation characters",
+  "keywords": [
+    "atom",
+    "indentation"
+  ],
+  "repository": "https://github.com/supermario/visual-indent",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {}
+}
