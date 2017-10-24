@@ -10,6 +10,8 @@ Have your indentation cake and eat it too!
 
 ### Install
 
+:warning: `visual-indent` is currently unreleased and rough around the edges.
+
 `apm install supermario/visual-indent`
 
 Note: you may find [`auto-detect-indentation`](https://atom.io/packages/auto-detect-indentation) with "Show spacing in status bar" enabled to be useful if you frequently swap between indentation sizings.
