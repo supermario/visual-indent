@@ -1,16 +1,14 @@
 # Visual Indentation for Atom
 
-Prefer 2-spaced, 3-spaced, 4-spaced or 42-spaced code layouts?
+Prefer 2-spaced, 3-spaced, 4-spaced or 42-spaced code layouts? Working on code (maybe at work, or open source) with a different indentation that you can't / shouldn't change?
 
-Simply set your _preferred_ target tab width, and `visual-indent` will adjust the indentation width you _see_ to be displayed in your preferred visual width.
+`visual-indent` lets you set your preferred _visual_ indent width, and work in it without changing the physical indentation in a file. Indentation markers get a dynamically calculated width based on the indentation settings of the file.
 
-`visual-indent` simply tweaks Atom's indentation markers, so you can work in your preferred visual width while still respecting the actual indentation characters of the current file. It makes no changes to the actual indentation.
-
-Have your indentation cake and eat it too!
+Have your indentation cake, and eat it too!
 
 ### Install
 
-:warning: `visual-indent` is currently unreleased and rough around the edges.
+:warning: `visual-indent` is unreleased and rough around the edges. It currently has a 10% black opacity background that shows for all resized indents for clarity on when resizing is occurring.
 
 `apm install supermario/visual-indent`
 
